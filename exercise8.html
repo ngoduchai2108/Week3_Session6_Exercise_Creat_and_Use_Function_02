@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 8</title>
+    <script src="reserseArray_exe8.js"></script>
+    <script src="showArray_exe8.js"></script>
+    <script src="creatArray_exe8.js"></script>
+</head>
+<body>
+<h1>Reserse Array</h1>
+<p id="array"></p>
+<p id="result"></p>
+<script>
+    var array=[];
+    creatArray(array);
+    document.getElementById('array').innerHTML=showArray(array);
+    document.getElementById('result').innerHTML=reserseArray(array);
+</script>
+</body>
+</html>
